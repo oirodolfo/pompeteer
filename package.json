@@ -1,6 +1,6 @@
 {
   "name": "pompeteer",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "POM library for puppeteer",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,13 @@
   "scripts": {
     "build": "webpack"
   },
+  "keywords": ["puppeteer", "pom"],
   "author": "micolesnic@gmail.com",
+  "homepage": "https://github.com/mic-c/pompeteer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mic-c/pompeteer"
+  },
   "license": "ISC",
   "peerDependencies": {
     "puppeteer": "^13.5.2"
